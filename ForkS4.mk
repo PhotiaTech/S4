@@ -35,8 +35,8 @@ else
     SHLIB_EXT = so
     SHLIB_FLAGS = -fPIC -shared
     LA_LIBS = -llapack -lblas
-    LUA_INC = -I/usr/include/lua5.2
-    LUA_LIB = -llua5.2
+    LUA_INC = -I/usr/include/lua5.3
+    LUA_LIB = -llua5.3
     LUA_MODULE_LIB =
 
     MPI_INC =
