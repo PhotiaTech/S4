@@ -1,0 +1,46 @@
+#------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------#
+
+# This file holds Git configuration data and commands for ignoring.
+
+# Usage: copy file to Git repository.
+
+# Joseph Bernhardt Geddes III (JBG3)
+
+#------------------------------------------------------------------------------#
+
+# Command Git to ignore file types based on following rules.
+
+# Emacs
+
+*.*~
+
+# LaTeX
+
+*.aux
+*.bbl
+*.blg
+*.dep
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.toc
+
+# MacOS
+
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.Trashes
+
+# Python
+
+.ipynb_checkpoints
+__pycache__
+
+#------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------#
